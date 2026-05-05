@@ -14,7 +14,7 @@ public class Main {
             System.out.print("Ingrese la base: ");
             int base = scanner.nextInt();
 
-            System.out.print("Ingrese el exponente: ");
+            System.out.print("Ingrese su exponente: ");
             int exponente = scanner.nextInt();
 
             int resultado = parcial.potencia(base, exponente);

@@ -13,11 +13,11 @@ public class Parcial {
             try {
                 resultado = Math.multiplyExact(resultado, b);
             } catch (ArithmeticException exception) {
-                throw new ArithmeticException("El resultado de la potencia no cabe en un entero.");
+                throw new ArithmeticException("El resultado de la potencia no cabe en el entero.");
             }
 
             if (resultado > Integer.MAX_VALUE || resultado < Integer.MIN_VALUE) {
-                throw new ArithmeticException("El resultado de la potencia no cabe en un entero.");
+                throw new ArithmeticException("El resultado de la potencia no cabe en el entero.");
             }
         }
 
